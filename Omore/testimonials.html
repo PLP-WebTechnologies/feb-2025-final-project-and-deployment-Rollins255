@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Testimonials - Omore Electricals</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="Omore Electricals Logo" />
+          <h1>Omore Electricals</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="testimonials.html" class="active">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div class="container">
+        <h2>Client Testimonials</h2>
+        <p>What our customers say about our services</p>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonial-slider">
+          <div class="testimonial active">
+            <div class="testimonial-content">
+              <img src="images/testimonials/john.jpg" alt="John Ochieng" />
+              <blockquote>
+                "Omore Electricals did an excellent job rewiring my entire
+                house. Their team was professional, punctual, and the work was
+                completed ahead of schedule. I highly recommend their services."
+              </blockquote>
+              <cite>John Ochieng, Kisumu</cite>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <img src="images/testimonials/mary.jpg" alt="Mary Auma" />
+              <blockquote>
+                "When our refrigerator stopped working, Omore Electricals had it
+                repaired the same day at a very reasonable price. Their
+                technician was knowledgeable and courteous. Great service!"
+              </blockquote>
+              <cite>Mary Auma, Milimani</cite>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <img src="images/testimonials/david.jpg" alt="David Okello" />
+              <blockquote>
+                "The solar power system installed by Omore Electricals has
+                significantly reduced our electricity bills. Their advice on
+                energy efficiency was spot on. Very professional team."
+              </blockquote>
+              <cite>David Okello, Riat Hills</cite>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <img src="images/testimonials/sarah.jpg" alt="Sarah Atieno" />
+              <blockquote>
+                "We've been buying all our office electrical supplies from Omore
+                Electricals for the past 3 years. Their products are quality and
+                their customer service is exceptional."
+              </blockquote>
+              <cite>Sarah Atieno, Mega Plaza</cite>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-controls">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="testimonial-form">
+          <h3>Share Your Experience</h3>
+          <form id="addTestimonialForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" required />
+            </div>
+            <div class="form-group">
+              <label for="testimonial">Your Testimonial</label>
+              <textarea
+                id="testimonial"
+                name="testimonial"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label>Rating</label>
+              <div class="rating-input">
+                <i class="far fa-star" data-value="1"></i>
+                <i class="far fa-star" data-value="2"></i>
+                <i class="far fa-star" data-value="3"></i>
+                <i class="far fa-star" data-value="4"></i>
+                <i class="far fa-star" data-value="5"></i>
+                <input type="hidden" id="rating" name="rating" value="0" />
+              </div>
+            </div>
+            <button type="submit" class="btn">Submit Testimonial</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section location">
+          <h3>Our Location</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Daraja-Mbili Stage<br />
+            Kisumu-Busia Road<br />
+            Kisumu County, Kenya
+          </p>
+          <div class="business-hours">
+            <h4>Business Hours</h4>
+            <p>Mon-Fri 8:00 AM - 8:00 PM</p>
+            <p>Sat: 9:00 AM - 8:00 PM</p>
+            <p>Sun: 2:00 PM - 7:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>
+            &copy; <span id="year"></span> Omore Electricals. All Rights
+            Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
